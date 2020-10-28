@@ -24,7 +24,7 @@ $(document).ready(function () {
 					$('.winner').css('background-color', '#e85a4f');
 					$('#reload').css('color','#e85a4f');
 				}
-				play = false;
+				play = false;	
 			}
 		}
 	});
