@@ -48,7 +48,6 @@ $(document).ready(function () {
 		} else if ((space7 == space8) && (space8 == space9)) {
 			return space9;
 		}
-		
 		// check columns
 		else if ((space1 == space4) && (space4 == space7)) {
 			return space7;
