@@ -39,6 +39,7 @@ $(document).ready(function () {
 		var space7 = $("#board tr:nth-child(3) td:nth-child(1)").text();
 		var space8 = $("#board tr:nth-child(3) td:nth-child(2)").text();
 		var space9 = $("#board tr:nth-child(3) td:nth-child(3)").text();
+		
 		// check rows
 		if ((space1 == space2) && (space2 == space3)) {
 			return space3;
@@ -47,6 +48,7 @@ $(document).ready(function () {
 		} else if ((space7 == space8) && (space8 == space9)) {
 			return space9;
 		}
+		
 		// check columns
 		else if ((space1 == space4) && (space4 == space7)) {
 			return space7;
